@@ -2,7 +2,7 @@
 const AIPicker = () => {
   return (
     <div>
-      
+      AIPicker
     </div>
   )
 }
