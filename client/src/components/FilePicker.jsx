@@ -11,23 +11,23 @@ const FilePicker = ({ file, setFile, readFile }) => {
           onChange={(e) => setFile(e.target.files[0])}
         />
         <label htmlFor="file-upload" className="filepicker-label">
-          Upload File
+          اپلود فایل
         </label>
         <p className="mt-2 text-gray-500 text-xs truncate">
-          {file === "" ? "No file selected" : file.name}
+          {file === "" ? "فایلی انتخاب نشده" : file.name}
         </p>
       </div>
 
       <div className="mt-4 flex flex-wrap gap-3">
         <CustomButton
           type="outline"
-          title="Logo"
+          title="لوگو"
           handleClick={() => readFile("logo")}
           customStyles="text-xs"
         />
         <CustomButton
           type="filled"
-          title="Full"
+          title="تمام تیشرت"
           handleClick={() => readFile("full")}
           customStyles="text-xs"
         />

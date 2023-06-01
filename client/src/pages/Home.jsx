@@ -28,21 +28,22 @@ const Home = () => {
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                LET'S <br className="xl:block hidden" /> DO IT.
+                تیشرت <br className="xl:block hidden" /> خودتو بساز !
               </h1>
             </motion.div>
             <motion.div
               {...headContentAnimation}
               className="flex flex-col gap-5">
               <p className="max-w-md font-normal text-gray-600 text-base">
-                Create your unique and exclusive shirt with our brand-new 3D
-                customization tool. <strong>Unleash your imagination</strong>{" "}
-                and define your own style.
+                پیراهن منحصر به فرد خودتو با کانسپت سه بعدی جدید من بساز :){" "}
+                <br />
+                ابزار سفارشی سازی <strong>تخیل خود را آزاد کن </strong>و سبک
+                خودتو تعریف کن.
               </p>
 
               <CustomButton
                 type="filled"
-                title="Customize It"
+                title="سفارشی سازی"
                 handleClick={() => (state.intro = false)}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
